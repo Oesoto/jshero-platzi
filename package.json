@@ -1,0 +1,14 @@
+{
+  "name": "platzijavascripthero",
+  "version": "1.0.0",
+  "description": "Platzi Javascript excercises ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --detectOpenHandles --runInBand --verbose --colors"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
