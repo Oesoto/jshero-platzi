@@ -36,7 +36,7 @@ Output
  */
 
 function filterOrders(orders, criteria) {
-  const criteriaTotal = Number(criteria.total) || -1;
+  const criteriaTotal = Number(criteria.total) || NaN;
   const criteriaDelivered = Boolean(criteria.delivered);
   return orders.filter(
     (order) =>
